@@ -1,0 +1,5 @@
+import:
+  ddl-r-abdulaziz/sib-a:
+    branch: main
+  ddl-r-abdulaziz/sib-b:
+    branch: main
