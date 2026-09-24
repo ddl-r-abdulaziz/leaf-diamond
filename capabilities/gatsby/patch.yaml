@@ -1,0 +1,11 @@
+#@ load("@ytt:overlay", "overlay")
+
+#@overlay/match by=overlay.all
+#@overlay/match-child-defaults missing_ok=True
+---
+leaf: diamond
+#@overlay/replace
+greeting: hello from leaf-diamond
+tags:
+#@overlay/append
+- leaf-diamond
